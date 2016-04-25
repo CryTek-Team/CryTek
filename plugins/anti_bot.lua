@@ -40,7 +40,7 @@ local function isABot (user)
 end
 
 local function kickUser(userId, chatId)
-  local chat = 'chat#id'..chatId
+  local chat = 'channel#id'..chatId
   local user = 'user#id'..userId
   chat_del_user(chat, user, function (data, success, result)
     if success ~= 1 then
