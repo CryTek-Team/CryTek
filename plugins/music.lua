@@ -12,7 +12,7 @@ local function musiclink(msg, musicid)
 	if not value then
 		return
 	else
-		value = value..'\n\n@GPMod'
+		value = value..'\n\n@CryTek_Team'
 		return value
 	end
 end
