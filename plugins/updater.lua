@@ -12,4 +12,3 @@ return {
   run = run,
   moderated = true
 }
---Channel : @Black_CH
