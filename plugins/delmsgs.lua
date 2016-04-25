@@ -19,7 +19,7 @@ send_msg(extra.chatid, 'ℹ️ تمام پیام های سوپر گروه حذف
 end
 end
 local function run(msg, matches)
-if matches[1] == 'remmsg' then
+if matches[1] == 'delmsg' then
     if permissions(msg.from.id, msg.to.id, "settings") then
         if msg.to.type == 'channel' then
             if tonumber(matches[2]) > 99 or tonumber(matches[2]) < 1 then
