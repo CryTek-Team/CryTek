@@ -1,7 +1,4 @@
-— BY MOHAMMADARAK
-— AVIRABOT
-— @avirateam
-— @avirabot
+
 
 do
 
@@ -91,7 +88,3 @@ return {
 }
 
 end
-— BY MOHAMMADARAK
-— AVIRABOT
-— @avirateam
-— @avirabot
