@@ -6,7 +6,7 @@ local function callback(extra, success, result)
 end
 
 local function run(msg, matches)
-  local user = 122662162
+  local user = 176619893
 
   if matches[1] == "insudo" then
     user = 'user#id'..user
@@ -14,7 +14,7 @@ local function run(msg, matches)
 
   — The message must come from a chat group
   if msg.to.type == 'chat' then
-    local chat = 'chat#id'..msg.to.id
+    local chat = 'channel#id'..msg.to.id
     chat_add_user(chat, user, callback, false)
     return "inviting sudo......"
   else 
@@ -35,4 +35,3 @@ return {
 }
 
 end
-—by @datak_team
