@@ -23,31 +23,22 @@ end
 if msg.text == "س" then
 	return "مثل آدم بنویس سلام!"
 end
-if msg.text == "kir" then
-	return "to konet"
-end
-if msg.text == "کیر" then
-	return "تو کونت"
-end
 if msg.text == "fuck" then
 	return "you ! _|_"
 end
-if msg.text == "tiago" then
+if msg.text == "CryTek" then
 	return "جانم؟"
 end
-if msg.text == "Tiago" then
+if msg.text == "crytek" then
 	return "جانم؟"
 end
-if msg.text == "jan123" then
-	return "با بابام کاری داری؟ 😎 تو @TiagoPvbot بهم بگو بهش میگم 🤗"
+if msg.text == "Zeus" then
+	return "با بابام کاری داری؟ 😎 تو @CryTek_botبهم بگو بهش میگم 🤗"
 end
-if msg.text == "Jan123" then
-	return "با بابام کاری داری؟ 😎 تو @TiagoPvbot بهم بگو بهش میگم 🤗"
+if msg.text == "zeus" then
+	return "با بابام کاری داری؟ 😎 تو @CryTek_botبهم بگو بهش میگم 🤗🤗"
 end
-if msg.text == "جان123" then
-	return "با بابام کاری داری؟ 😎 تو @TiagoPvbot بهم بگو بهش میگم 🤗"
-end
-if msg.text == "تیاگو" then
+if msg.text == "کرایتک" then
 	return "کاری داشتی؟"
 end
 if msg.text == "bot" then
@@ -72,7 +63,7 @@ if msg.text == "bye" then
 	return "خدا حافظ"
 end
 if msg.text == "بای" then
-	return "Bb"
+	return "bye"
 end
 if msg.text == "خداحافظ" then
 	return "Bye"
@@ -92,8 +83,6 @@ return {
 		"^بای$",
 		"^خداحافظ$",
 		"^?$",
-		"^[kK][iI][rR]$",
-		"^کیر$",
 		"^تیاگو$",
 		"^[Tt]iago$",
 		"^[Jj]an123$",
