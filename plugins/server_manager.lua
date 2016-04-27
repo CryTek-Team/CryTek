@@ -5,7 +5,7 @@ function run(msg, matches)
         local s = io.popen("sh /home/CryTek/data/com/upstart.sh") 
         return ( s:read("*a") ) 
   elseif matches[1] == "serverinfo" and is_sudo(msg) then
-     local f = io.popen("sh /home/TeleSeed/data/com/cmd.sh") 
+     local f = io.popen("sh /home/CryTek/data/com/cmd.sh") 
      return ( f:read("*a") ) 
   end
 end
