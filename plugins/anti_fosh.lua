@@ -13,8 +13,7 @@ local function run(msg, matches)
     local chat = get_receiver(msg)
     local user = "user#id"..msg.from.id
     if lock_fosh == "yes" then
-        send_large_msg(chat, 'بدلیل فحاشی از گروه سیکتیر شدید')
-        chat_del_user(chat, user, ok_cb, true)
+        delete_msg(chat, user, ok_cb, true)
     end
 end
  
